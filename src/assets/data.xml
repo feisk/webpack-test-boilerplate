@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email>
+    <to>Fedor</to>
+    <from>webpack</from>
+    <heading>Tutorial</heading>
+    <body>
+    Finish the course
+    </body>
+</email>

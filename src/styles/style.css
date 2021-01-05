@@ -1,0 +1,26 @@
+@import '~normalize.css';
+@import 'fonts.css';
+
+body {
+  font-family: roboto, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: calc(100% - 32px);
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  background: url('../assets/images/webpack.svg') center/contain no-repeat;
+}
+
+pre {
+  color: blue;
+}

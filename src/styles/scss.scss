@@ -1,0 +1,11 @@
+$border_base: 1px solid green;
+
+.box3 {
+  border: $border_base;
+  padding: 2rem;
+  text-align: center;
+
+  h2 {
+    color: red;
+  }
+}
