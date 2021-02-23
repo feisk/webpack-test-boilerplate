@@ -125,7 +125,6 @@ const getBabelLoader = (preset) => {
 
 module.exports = {
   target: isDev ? 'web' : 'browserslist', // hrm hack https://qna.habr.com/answer?answer_id=1813939#answers_list_answer https://github.com/webpack/webpack-dev-server/issues/2758
-  mode: 'development',
   context: path.resolve(__dirname, 'src'),
   entry: {
     main: './index.jsx',
